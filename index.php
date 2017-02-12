@@ -14,8 +14,8 @@
 //Toggle Witnesses//
 $(document).ready(function(){
 	$("#toggle-hg").click(function(){
-		$(".toggle").css("color", "#999");
-		$("#toggle-hg").css("color", "#06F");
+		$(".toggle").css({"color": "#999", "text-decoration": "none"});
+		$("#toggle-hg").css({"color": "#06F", "text-decoration": "underline"});
 		$("#el").hide();
 		$("#dd").hide();
 		$("#gg").hide();
@@ -24,8 +24,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 	$("#toggle-el").click(function(){
-		$(".toggle").css("color", "#999");
-		$("#toggle-el").css("color", "#06F");
+		$(".toggle").css({"color": "#999", "text-decoration": "none"});
+		$("#toggle-el").css({"color": "#06F", "text-decoration": "underline"});
 		$("#hg").hide();
 		$("#dd").hide();
 		$("#gg").hide();
@@ -34,8 +34,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 	$("#toggle-dd").click(function(){
-		$(".toggle").css("color", "#999");
-		$("#toggle-dd").css("color", "#06F");
+		$(".toggle").css({"color": "#999", "text-decoration": "none"});
+		$("#toggle-dd").css({"color": "#06F", "text-decoration": "underline"});
 		$("#hg").hide();
 		$("#el").hide();
 		$("#gg").hide();
@@ -44,8 +44,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 	$("#toggle-gg").click(function(){
-		$(".toggle").css("color", "#999");
-		$("#toggle-gg").css("color", "#06F");
+		$(".toggle").css({"color": "#999", "text-decoration": "none"});
+		$("#toggle-gg").css({"color": "#06F", "text-decoration": "underline"});
 		$("#hg").hide();
 		$("#ek").hide();
 		$("#dd").hide();
@@ -68,7 +68,7 @@ $(document).ready(function(){
     <br/>
 	<div id="toolbar">
     	<hr/>
-    	<span class="toggle" id="toggle-hg" style="color: rgb(0, 102, 255);">Hg ProWBT 603‒626</span>
+    	<span class="toggle" id="toggle-hg" style="color: rgb(0, 102, 255);text-decoration: underline;">Hg ProWBT 603‒626</span>
         <span class="toggle" id="toggle-el">El ProWBT 603&#x2012;626</span>
         <span class="toggle" id="toggle-dd">Dd ProWBT 603&#x2012;626</span>
         <span class="toggle" id="toggle-gg">Gg ProWBT 603&#x2012;626</span>
