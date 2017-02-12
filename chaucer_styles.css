@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* E M B E D D E D   F O N T S
+Cross-browser support REQUIRES that 1) the style sheet containing the @font-face rule(s), 2) the font(s) referenced by those rule(s), 3) the Web
+page(s) that will use them share the SAME folder, and 4) IE8-compatible webfonts be listed first. */
+
+	/* Used by IE8 */
+
+	@font-face {
+		font-family: Andron;
+		src: url('andron_scriptor_web_3_1.eot');
+		}
+	
+	/* Used by Other Web Browsers */
+
+	@font-face {
+		font-family: Andron;
+		src: url('andron_scriptor_web_3_1.woff');
+		}
+
+/* S T Y L E S */
+
+	/* Hyperlinks */
+
+	a:active {
+		color: #999;
+		text-decoration: none;
+		}
+	a:hover {
+		color: #999;
+		text-decoration: none;
+		}
+	a:link {
+		color: #CCC;
+		text-decoration: none;
+		}
+	a:visited {
+		color: #CCC;
+		text-decoration: none;
+		}
+
+	/* General */
+
+	#main {
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		}
+	body {
+		color: #000;
+		font-family: Arial;
+		font-size: 10pt;
+		margin: 0px;
+		text-align: justify;
+		}
+	.medieval {
+		color: #000;
+		font-family: Andron;
+		font-size: 12pt;
+		line-height: 12pt;
+		text-align: left;
+		}
+	.heading_1 {
+		color: #06F;
+		font-size: 18pt;
+		font-variant: small-caps;
+		text-align: center;
+		}
+	#toolbar {
+		color: #999;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 85%;
+		text-align: center;
+		}
+	.toggle {
+		padding-left: 2em;
+		padding-right: 2em;
+		}
+	#content {
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		}
+	.l {
+		position: relative;
+    	width: 20em;
+    	}
+	#n2 {
+		display: none;
+		}
+	.margin-right {
+		position: absolute;
+        top: -0.05em;
+        left: 25em;
+		width: 10em;
+        }
